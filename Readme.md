@@ -1,14 +1,14 @@
-﻿**CSN-341 Project Report Group 6**
+﻿# Project Report
 
-**Introduction**
+## Introduction
 
 Efficient and reliable data communication in high-speed networks is paramount. This analysis explores error control mechanisms, including CRC, Reed Solomon, Hamming Code, Checksum, and Parity Check, along with flow control protocols such as Stop and Wait, Selective Repeat, and Go-Back-N. The objective is to understand their performance in high-speed data networks and identify optimal configurations for minimising data loss and maximising throughput.
 
-**Error Control Mechanisms**
+## Error Control Mechanisms
 
 The study focuses on their efficiency and performance in high speed data networks to minimise data loss and maximise throughput. The evaluation involves different data sizes and types of errors. Three key metrics, namely encoding time, decoding time, and efficiency in detection and correction, are compared and analysed through graphical representations.
 
-**CRC (Cyclic Redundancy Check)**
+## CRC (Cyclic Redundancy Check)
 
 Strengths:
 
@@ -19,7 +19,7 @@ Performance Analysis:
 
 - CRC demonstrates robust error detection in high-speed networks, contributing to data integrity.
 
-**Reed-Solomon**
+## Reed-Solomon
 
 Strengths:
 
@@ -30,7 +30,7 @@ Performance Analysis:
 
 - Reed Solomon enhances data reliability, particularly in scenarios with burst errors.
 
-**Hamming Code**
+## Hamming Code
 
 Strengths:
 
@@ -41,7 +41,7 @@ Performance Analysis:
 
 - Hamming Code provides effective error correction in high-speed environments with minimal overhead.
 
-**Checksum**
+## Checksum
 
 Strengths:
 
@@ -52,7 +52,7 @@ Performance Analysis:
 
 - Checksum contributes to error detection, with performance varying based on the nature of errors.
 
-**Parity Check**
+## Parity Check
 
 Strengths:
 
@@ -63,9 +63,9 @@ Performance Analysis:
 
 - Parity Check is suitable for low to moderate error scenarios in high-speed networks.
 
-**Flow Control Protocols**
+## Flow Control Protocols
 
-**Stop and Wait**
+## Stop and Wait
 
 Strengths:
 
@@ -76,7 +76,9 @@ Performance Analysis:
 
 - Stop and Wait may experience inefficiencies in high-speed networks due to its stop-and-start nature.
 
-**Selective Repeat** Strengths:
+## Selective Repeat
+
+Strengths:
 
 - Selective retransmission minimises retransmission overhead.
 - Well-suited for high-speed networks with occasional packet loss.
@@ -85,7 +87,7 @@ Performance Analysis:
 
 - Selective Repeat demonstrates efficient data recovery, contributing to improved throughput.
 
-**Go-Back-N**
+## Go-Back-N
 
 Strengths:
 
@@ -96,7 +98,7 @@ Performance Analysis:
 
 - Go-Back-N provides reliable data transmission, especially in high-speed environments with controlled packet loss.
 
-**Conclusion**
+## Conclusion
 
 This analysis concludes that the selection of error control mechanisms and flow control protocols significantly influences the performance of high-speed data networks. The choice depends on the specific network conditions, error patterns, and throughput requirements. A combination of error detection and correction mechanisms, along with adaptive flow control protocols, can contribute to minimising data loss and maximising throughput in high-speed data networks.
 
