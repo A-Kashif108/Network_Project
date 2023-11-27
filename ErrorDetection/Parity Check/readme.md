@@ -1,0 +1,1 @@
+Analyzing the efficiency of 2-D Bit Parity Check in detecting and correcting errors under various scenarios. The study involves different types of errors, data sizes, and efficiency to assess the robustness and performance of algorithm.
