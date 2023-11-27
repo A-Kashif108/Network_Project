@@ -1,0 +1,1 @@
+Analyzing the efficiency of Hamming Code in detecting and correcting errors under various scenarios. The study involves different types of errors and data sizes to assess the robustness and performance of the code. Also analysed the correction efficiency of improved hamming code vs original hamming code.
